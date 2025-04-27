@@ -1,0 +1,21 @@
+.site-footer {
+    padding: 4em 0;
+}
+
+.site-footer ul li {
+    margin-bottom: 10px;
+}
+
+.site-footer ul li a {
+    color: #5c626e;
+}
+
+.site-footer ul li a:hover {
+    color: #207dff;
+}
+
+.site-footer .footer-heading {
+    font-size: 1.2rem;
+    color: #000;
+    margin-bottom: 1rem;
+}
