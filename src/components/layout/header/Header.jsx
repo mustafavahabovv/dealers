@@ -50,13 +50,9 @@ const Header = () => {
                             </nav>
                         </div>
                         <div className="icons">
-                            <a href="javascript:void(0)" className="icons-btn d-inline-block js-search-open"><span
-                                className="icon-search"></span></a>
-                            <a href="javascript:void(0)" className="icons-btn d-inline-block"><span className="icon-heart-o"></span></a>
-                            <a href="cart.html" className="icons-btn d-inline-block bag">
-                                <span className="icon-shopping-bag"></span>
-                                <span className="number">2</span>
-                            </a>
+                            <Link to="/dashboard" className="icons-btn d-inline-block bag" style={{fontSize: '30px'}}>
+                                <span className="icon-person_outline"></span>
+                            </Link>
                             <a href="javascript:void(0)" className="site-menu-toggle js-menu-toggle ml-3 d-inline-block d-lg-none"><span
                                 className="icon-menu"></span></a>
                         </div>

@@ -14,12 +14,11 @@ const Home = () => {
     };
     useEffect(() => {
         if (isOwlReady && products.length > 0) {
-            // Delay slider init after React DOM update
             const timeout = setTimeout(() => {
                 slider();
-            }, 100); // 100ms is usually safe for DOM to update
+            }, 100);
 
-            return () => clearTimeout(timeout); // cleanup
+            return () => clearTimeout(timeout);
         }
     }, [isOwlReady, products]);
     useEffect(() => {
